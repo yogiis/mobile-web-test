@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/mac/Project/BukalapakTest/mobile-web-test-bukalapak">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="runner.FirefoxRunner">
+            </class>
+        </classes>
+    </test>
+</suite>
